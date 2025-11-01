@@ -1,0 +1,36 @@
+
+      body {
+        background-color: rgb(34, 34, 34);
+      }
+      .cart-calculator {
+        background-color: black;
+        display: inline-block;
+        padding: 23px;
+        border-radius: 15px;
+        position: absolute;
+        left: 50%;
+        top: 15%;
+        margin-left: -200px;
+      }
+      .js-result {
+        font-size: 35px;
+        color: white;
+        margin: 0px;
+      }
+      button {
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+        border: none;
+        font-size: 25px;
+        cursor: pointer;
+        background-color: rgb(51, 51, 51);
+        color: white;
+      }
+      button.btn-calculation {
+        background-color: orange;
+      }
+      button.btn-clear {
+        font-size: 18px;
+      }
+
