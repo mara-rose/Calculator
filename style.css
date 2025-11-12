@@ -11,11 +11,21 @@
         left: 50%;
         top: 15%;
         margin-left: -200px;
+        max-width: 252px;
       }
       .js-result {
         font-size: 35px;
         color: white;
-        margin: 0px;
+        margin: 0;
+      }
+      .result{
+        background-color: rgb(78, 78, 78);
+        border-radius: 5px;
+        border: 1px solid orange;
+        overflow: hidden;
+        padding-left: 10px;
+        padding-top: 14px;
+        padding-bottom: 14px;
       }
       button {
         height: 60px;
